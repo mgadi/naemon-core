@@ -21,7 +21,7 @@
 #
 
 # Location of the submit_check_result_via_nsca script
-SubmitCmd="/usr/local/nagios/libexec/eventhandlers/submit_check_result_via_nsca"
+SubmitCmd="/usr/lib/nagios/plugins/eventhandlers/submit_check_result_via_nsca"
 
 # Convert the state string to the corresponding return code
 return_code=-1
