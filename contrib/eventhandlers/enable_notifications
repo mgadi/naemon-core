@@ -14,7 +14,7 @@
 
 printfcmd="/usr/bin/printf"
 
-CommandFile="/usr/local/nagios/var/rw/nagios.cmd"
+CommandFile="/var/lib/naemon/naemon.cmd"
 
 # get the current date/time in seconds since UNIX epoch
 datetime=`date +%s`
